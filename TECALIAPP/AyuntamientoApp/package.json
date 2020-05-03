@@ -1,0 +1,55 @@
+{
+  "name": "tecaliapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native run-android && react-native run-ios",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.3.0",
+    "axios": "^0.19.0",
+    "firebase": "^6.2.0",
+    "native-base": "^2.12.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-native": "^0.59.9",
+    "react-native-add-calendar-event": "^2.3.0",
+    "react-native-calendars": "^1.145.0",
+    "react-native-communications": "^2.2.1",
+    "react-native-contacts": "^5.0.4",
+    "react-native-document-picker": "^2.3.0",
+    "react-native-email": "^1.0.2",
+    "react-native-firebase": "^5.5.6",
+    "react-native-geocoding": "^0.3.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-image-crop-picker": "^0.24.1",
+    "react-native-image-picker": "^0.28.1",
+    "react-native-maps": "^0.24.2",
+    "react-native-pdf": "^5.1.0",
+    "react-native-permissions": "^1.2.0",
+    "react-native-popup-menu": "^0.15.6",
+    "react-native-reanimated": "^1.2.0",
+    "react-navigation": "^3.0.0-rc.5",
+    "rn-fetch-blob": "^0.10.15",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.1.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "jest": "^24.1.0",
+    "jetifier": "^1.6.4",
+    "metro-react-native-babel-preset": "0.51.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  }
+}

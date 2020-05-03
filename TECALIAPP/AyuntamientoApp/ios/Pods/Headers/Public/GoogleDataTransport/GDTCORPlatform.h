@@ -1,0 +1,5 @@
+XSym
+0086
+74535525137035d702122722680a68c0
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORPlatform.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

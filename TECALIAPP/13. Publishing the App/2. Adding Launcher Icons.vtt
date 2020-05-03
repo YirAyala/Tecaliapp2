@@ -1,0 +1,193 @@
+WEBVTT
+
+00:02.440 --> 00:07.480
+Let's start with the icons because if we have a look at our application right now, this is the ios
+
+00:07.530 --> 00:10.150
+icon and here on Android,
+
+00:10.330 --> 00:13.420
+well we got this default Android robot.
+
+00:13.420 --> 00:15.910
+So this is not really a nice icon,
+
+00:16.150 --> 00:19.090
+adding icons thankfully is relatively simple though.
+
+00:19.330 --> 00:24.340
+Attached to this video, you will find a couple of image files which we'll use
+
+00:24.710 --> 00:30.530
+and let's start by creating an android icon. For that you need Android studio
+
+00:30.610 --> 00:36.980
+and there, you should go into your app folder in your open project, so open your project with the android
+
+00:36.980 --> 00:37.510
+studio as
+
+00:37.510 --> 00:39.000
+we did it before in this course,
+
+00:39.010 --> 00:44.680
+navigate into that Android folder and open that Android folder in your project, so this folder here, open
+
+00:44.810 --> 00:50.870
+it with Android studio and in there, you'll have this app folder, the same you can add it from in here
+
+00:51.700 --> 00:58.300
+but here in Android studio, we get some extra tools. Go to the source folder and then there in the main
+
+00:58.300 --> 01:01.660
+folder, there is this res folder for resources.
+
+01:01.660 --> 01:08.620
+Here you see a couple of folders which actually hold the launcher icon you're seeing, this robot. Replacing
+
+01:08.620 --> 01:12.070
+this is the goal and there is a convenient way of doing that,
+
+01:12.160 --> 01:20.680
+you can just right click on this folder and then click on new and then on image asset. There you can
+
+01:20.680 --> 01:27.380
+create a launcher icon with this convenient helper, so you can basically leave all the defaults,
+
+01:27.460 --> 01:31.230
+definitely leave the name so that the other launcher icon is overridden,
+
+01:31.450 --> 01:38.500
+that's the name linked in your manifest file, I'll come back to that and leave all the settings as I said.
+
+01:38.530 --> 01:44.580
+Now what you have to do and can do is you have to pick your image, here under source asset.
+
+01:44.710 --> 01:49.540
+Choose one of this, it could just be some text you enter here but I'll pick an image and then use the
+
+01:49.540 --> 01:52.470
+image I attached to this video,
+
+01:53.360 --> 01:58.930
+to be precise use the app icon one, without any other extension just appicon.png and open
+
+01:58.930 --> 01:59.480
+it.
+
+01:59.900 --> 02:04.280
+Then you see a preview and this tool will automatically generate a couple of icons that look good on
+
+02:04.280 --> 02:09.130
+different devices and on different Android versions, so really convenient.
+
+02:09.140 --> 02:16.900
+Now here my project actually doesn't target API 26 or higher, so I can also just use the legacy only approach
+
+02:16.910 --> 02:22.100
+but if you're targeting API 26 or higher, then definitely go with adaptive than legacy,
+
+02:22.190 --> 02:25.960
+if you use legacy only, then you still leave the name as it is.
+
+02:26.000 --> 02:33.750
+We pick an image and you use the same image as before and it will then still give you these images here,
+
+02:33.810 --> 02:40.230
+these previews, then we can click next and override the existing icon and click finish.
+
+02:41.410 --> 02:47.910
+With that we have now our icon as the app icon and we can see this if we reinstall our app,
+
+02:47.950 --> 02:50.770
+so let's uninstall the older version here
+
+02:52.100 --> 02:57.000
+and let's thereafter in our projects just run npm run Android.
+
+02:57.010 --> 03:03.320
+This will now rebuild the application and of course include this new icon and it will then install this
+
+03:03.350 --> 03:06.910
+application on the Android device.
+
+03:07.000 --> 03:09.700
+Once it's done, it'll here looks as it always does
+
+03:09.780 --> 03:16.580
+but if we open this app drawer, here we can see our icon and we can of course also add it to the home
+
+03:16.580 --> 03:17.070
+screen,
+
+03:17.100 --> 03:19.290
+so that looks much better now.
+
+03:21.160 --> 03:28.170
+How about ios? There we of course can also add an icon, we do this with Xcode
+
+03:29.220 --> 03:35.130
+and of course here the important part is as with all the iOS related things, the iOS app related things,
+
+03:35.520 --> 03:38.850
+you can't do that on a Windows machine unfortunately.
+
+03:38.940 --> 03:47.100
+Now here in Xcode, what you do is you simply go to this image XC assets file here and click on app
+
+03:47.190 --> 03:53.790
+icon and there you now got a couple of slots where you should drop in icons and I prepared all these
+
+03:53.930 --> 03:54.710
+icons for you,
+
+03:54.710 --> 03:58.060
+you can see you have a 2x and a 3x variant of most of them
+
+03:58.120 --> 04:01.830
+and one 1024 point version.
+
+04:02.070 --> 04:06.290
+Now you can simply drag your icons into the respective slots now,
+
+04:06.300 --> 04:09.850
+so here's the 20 by 2 and 20 by 3 version
+
+04:10.110 --> 04:13.770
+and I'm going to do this for all the slots you see here,
+
+04:13.770 --> 04:17.550
+that is why I provided all these different icons sizes for you.
+
+04:22.510 --> 04:28.770
+With that, that's already it, I've finished this set up, this is all we needed to do here.
+
+04:28.900 --> 04:33.530
+I can now go to my iOS app and also uninstall that
+
+04:33.700 --> 04:41.170
+and in our project i can now run ios so npm run ios to rebuild that and include the new icon and
+
+04:41.170 --> 04:46.850
+then it will install this here and it will install it with our new icon we assigned.
+
+04:46.900 --> 04:48.370
+So let's wait for that,
+
+04:50.450 --> 04:52.270
+here we are, you can already see it,
+
+04:52.460 --> 04:54.200
+here's our nice
+
+04:54.200 --> 04:56.490
+lovely icon. Now
+
+04:56.510 --> 05:02.590
+one thing that is missing is a nice splash screen. We can see it if we kill this process and start the
+
+05:02.670 --> 05:06.290
+app and we don't even have a splash screen for Android.
+
+05:06.560 --> 05:10.340
+So in the next lecture, let's add a nice splash screens.

@@ -1,0 +1,5 @@
+XSym
+0089
+f8c22838ceaa815510b1d5f062188ff9
+../../../../../node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android/@react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TecaliApp.iml" filepath="$PROJECT_DIR$/TecaliApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-add-calendar-event/android/react-native-add-calendar-event.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-add-calendar-event/android/react-native-add-calendar-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-contacts/android/react-native-contacts.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-contacts/android/react-native-contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-document-picker/android/react-native-document-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-document-picker/android/react-native-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fcm/android/react-native-fcm.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fcm/android/react-native-fcm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-firebase/android/react-native-firebase.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-firebase/android/react-native-firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-fs/android/react-native-fs.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-fs/android/react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android/react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-crop-picker/android/react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-image-picker/android/react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-maps/lib/android/react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-pdf/android/react-native-pdf.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-pdf/android/react-native-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-reanimated/android/react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/rn-fetch-blob/android/rn-fetch-blob.iml" filepath="$PROJECT_DIR$/../node_modules/rn-fetch-blob/android/rn-fetch-blob.iml" />
+    </modules>
+  </component>
+</project>

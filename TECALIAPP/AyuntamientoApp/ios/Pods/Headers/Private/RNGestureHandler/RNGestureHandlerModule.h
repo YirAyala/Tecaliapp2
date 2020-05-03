@@ -1,0 +1,5 @@
+XSym
+0085
+86076d7e073efa907f728bab69d489c9
+../../../../../node_modules/react-native-gesture-handler/ios/RNGestureHandlerModule.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

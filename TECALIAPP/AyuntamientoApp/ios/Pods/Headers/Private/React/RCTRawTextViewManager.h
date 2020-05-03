@@ -1,0 +1,5 @@
+XSym
+0087
+d874dd0c8ac70bc93f4591968d4512b7
+../../../../../node_modules/react-native/Libraries/Text/RawText/RCTRawTextViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

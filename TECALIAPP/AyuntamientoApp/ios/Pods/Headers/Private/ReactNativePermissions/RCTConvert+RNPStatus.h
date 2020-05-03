@@ -1,0 +1,5 @@
+XSym
+0079
+7207c6a40897a645f2ccd1f1e31a32b8
+../../../../../node_modules/react-native-permissions/ios/RCTConvert+RNPStatus.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

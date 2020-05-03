@@ -1,0 +1,5 @@
+XSym
+0083
+77439b335e34b683174b4fcc4119335c
+../../../../../node_modules/react-native-image-crop-picker/ios/src/UIImage+Resize.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -1,0 +1,5 @@
+XSym
+0069
+ffa2e5f00067bad5742759f18bebd064
+../../../RSKImageCropper/RSKImageCropper/CGGeometry+RSKImageCropper.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

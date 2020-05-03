@@ -1,0 +1,5 @@
+XSym
+0095
+1731e4bc0007e7b3fb30b0400e95f310
+../../../../../node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

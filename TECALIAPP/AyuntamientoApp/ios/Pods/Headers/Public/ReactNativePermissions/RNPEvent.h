@@ -1,0 +1,5 @@
+XSym
+0079
+f2d7d41a6c09fa71ec70610c6308f05b
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPEvent.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

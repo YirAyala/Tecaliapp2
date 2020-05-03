@@ -1,0 +1,5 @@
+XSym
+0059
+0d2fd9bd180b7a9c055fc6e143cfac95
+../../../DoubleConversion/double-conversion/cached-powers.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

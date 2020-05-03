@@ -1,0 +1,5 @@
+XSym
+0086
+4617dd388367cc94a7f7c1a6fe2d26da
+../../../../../node_modules/react-native-gesture-handler/ios/Handlers/RNPinchHandler.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

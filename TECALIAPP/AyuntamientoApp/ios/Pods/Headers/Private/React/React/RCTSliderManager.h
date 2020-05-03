@@ -1,0 +1,5 @@
+XSym
+0074
+c1b7bb7666b728634fcab18745606391
+../../../../../../node_modules/react-native/React/Views/RCTSliderManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

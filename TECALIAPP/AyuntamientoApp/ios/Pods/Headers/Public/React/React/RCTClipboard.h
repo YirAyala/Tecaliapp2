@@ -1,0 +1,5 @@
+XSym
+0072
+4a8ee2165976c64ee3b3f36840beb301
+../../../../../../node_modules/react-native/React/Modules/RCTClipboard.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

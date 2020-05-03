@@ -1,0 +1,5 @@
+XSym
+0091
+0ab2c2466452de09991c166dd9f4098d
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPBackgroundRefresh.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

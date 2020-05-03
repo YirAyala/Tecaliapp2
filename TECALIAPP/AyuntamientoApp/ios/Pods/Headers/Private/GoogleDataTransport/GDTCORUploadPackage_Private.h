@@ -1,0 +1,5 @@
+XSym
+0100
+48c7fa42d88a4c5d73f27b8080852513
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Private/GDTCORUploadPackage_Private.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

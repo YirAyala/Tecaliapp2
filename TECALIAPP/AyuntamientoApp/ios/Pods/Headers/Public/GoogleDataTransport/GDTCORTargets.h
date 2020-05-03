@@ -1,0 +1,5 @@
+XSym
+0085
+4cebdbf4cbf8c0d4de83a1bcb22a86ea
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORTargets.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,5 @@
+XSym
+0110
+d48f8ea388f398d9060a9199b7f7f561
+../../../../../node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTMultilineTextInputViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

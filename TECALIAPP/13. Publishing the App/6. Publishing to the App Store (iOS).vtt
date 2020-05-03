@@ -1,0 +1,262 @@
+WEBVTT
+
+00:02.520 --> 00:09.540
+We published our app for Android, let's now do the same for iOS and for that, you need an Apple developer
+
+00:09.540 --> 00:10.120
+account.
+
+00:10.120 --> 00:15.120
+You can simply log in with your Apple ID and password and then you'll be prompted to basically turn this
+
+00:15.120 --> 00:18.210
+into a developer account, accept their agreements and so on
+
+00:18.290 --> 00:25.440
+and important, for this now, for publishing an app, you need a paid account which comes at an annual fee
+
+00:25.440 --> 00:27.110
+of $99.
+
+00:27.360 --> 00:29.420
+So it's more expensive than Android,
+
+00:29.460 --> 00:33.570
+unsurprisingly I guess but you need this if you want to publish your app,
+
+00:33.600 --> 00:34.990
+there's no way around that.
+
+00:35.790 --> 00:38.670
+Now to publish an app, you need to go to iTunes Connect,
+
+00:38.700 --> 00:43.530
+you can easily search for it, iTunes Connect and unfortunately this is in German and I found
+
+00:43.560 --> 00:44.860
+no way to turn to English
+
+00:44.910 --> 00:47.520
+but I can tell you the first item here is called my apps,
+
+00:47.520 --> 00:53.250
+so we click on my apps and there, you can add a new app with the plus,
+
+00:53.420 --> 01:00.140
+then choose new app and there enter a name like awesome places.
+
+01:02.380 --> 01:06.650
+Choose a platform which is ios, primary language like English,
+
+01:06.860 --> 01:08.100
+a bundle ID
+
+01:08.420 --> 01:15.430
+and here we don't find the ID of our app. So we should go to the developer portal and register a new
+
+01:15.430 --> 01:16.080
+ID.
+
+01:17.230 --> 01:22.420
+You should be taken to the certificates identifiers profile page and click there on identifiers app
+
+01:22.480 --> 01:27.030
+IDs and click on plus.
+
+01:27.040 --> 01:30.120
+Now here you first of all have to enter an app ID description,
+
+01:30.160 --> 01:32.350
+awesome places, whatever you like,
+
+01:32.410 --> 01:36.420
+then you define an explicit app ID and that should be the app ID
+
+01:36.520 --> 01:37.800
+you have in Xcode,
+
+01:37.990 --> 01:41.710
+so here the bundle identifier. I'm going to copy that,
+
+01:41.740 --> 01:48.440
+here you see that they also recommend the style we're using, then you could check which services your app
+
+01:48.440 --> 01:54.560
+is about to use, none of these services apply to us here
+
+01:54.940 --> 02:02.070
+so now we can simply click continue and then simply register this app ID.
+
+02:02.480 --> 02:04.140
+So we're done,
+
+02:04.240 --> 02:09.170
+once you did register it, it may take a little while until you see it here,
+
+02:09.200 --> 02:18.640
+so reload the page, maybe wait a short time, create a new app and then it should show up here.
+
+02:18.650 --> 02:19.910
+So again let's fill this out,
+
+02:19.910 --> 02:20.720
+let's give it a name,
+
+02:20.720 --> 02:26.740
+ios, primary language, here you can give it a unique ID that only you see,
+
+02:29.310 --> 02:32.080
+basically for your invoices and so on
+
+02:32.160 --> 02:38.310
+and then you click create and I already get this from another course so let me rename this and now create
+
+02:38.310 --> 02:39.890
+this.
+
+02:39.910 --> 02:46.090
+So now we're on this page where we, just as for Google Play, can fill this out, paste a url to
+
+02:46.090 --> 02:53.770
+our privacy terms and so on, all of that. Now for us important, you can click on this here in preparation.
+
+02:54.810 --> 02:59.770
+Once you clicked here, you can again add some images and so on
+
+03:00.050 --> 03:01.990
+but you now also should add
+
+03:01.990 --> 03:06.520
+your build and as it says here, you should use Xcode for this. To upload your app,
+
+03:06.530 --> 03:11.080
+you need to go to product here in the menu again and click archive,
+
+03:11.890 --> 03:19.070
+this will essentially package your app for the ios or the Apple App Store.
+
+03:19.280 --> 03:25.880
+Once you're done, this archives explorer here opens and there you can validate it or simply upload to the
+
+03:25.880 --> 03:26.740
+App Store,
+
+03:26.860 --> 03:29.160
+so now it's checking everything here,
+
+03:31.960 --> 03:37.710
+you can leave this as it is, you can automatically manage signing which is very convenient and click
+
+03:37.710 --> 03:38.810
+next
+
+03:39.050 --> 03:43.890
+and here I'm getting a warning that I have a distribution certificate but no private key installed.
+
+03:44.040 --> 03:46.770
+You might not even have a distribution certificate
+
+03:47.040 --> 03:53.550
+and we get this in these certificates account here where we previously added our app ID, click on certificates
+
+03:53.550 --> 03:55.770
+here, click on a plus
+
+03:55.980 --> 04:04.960
+and now we want to have a production certificate, an app store and ad hoc certificate. Click continue after
+
+04:04.960 --> 04:06.170
+you selected this and
+
+04:06.220 --> 04:08.950
+now you need to create a CSR file.
+
+04:08.950 --> 04:11.620
+Now you can follow the instructions you see here,
+
+04:11.620 --> 04:19.660
+we should open the key chain access tool and then go to keychain access, certificate assistant, request
+
+04:19.660 --> 04:22.640
+a certificate from a certificate authority,
+
+04:22.840 --> 04:25.000
+enter your email address here,
+
+04:25.000 --> 04:28.930
+leave the CA email address field empty and save,
+
+04:28.940 --> 04:33.620
+choose save to disk here and click continue.
+
+04:33.670 --> 04:42.170
+Now this gives you a file which you should simply save, click done and then continue on the developer page
+
+04:42.740 --> 04:44.180
+and choose that file,
+
+04:45.220 --> 04:47.020
+so here I uploaded that file I created,
+
+04:47.020 --> 04:48.940
+click continue
+
+04:48.960 --> 04:53.540
+and now you can download that certificate and place it somewhere secure, like on desktop
+
+04:53.550 --> 05:01.250
+as I will do here but of course save it somewhere else, somewhere where it's secure and you're done. Now
+
+05:01.290 --> 05:02.770
+back in Xcode,
+
+05:03.700 --> 05:11.640
+you can go to preferences and manage certificates and click on create next to ios distribution
+
+05:11.640 --> 05:13.190
+if you don't have that yet.
+
+05:13.290 --> 05:19.130
+Once you created your distribution profile there, you can try again,
+
+05:19.130 --> 05:25.840
+go back to this archives manager, upload to App Store and go through all the steps
+
+05:25.880 --> 05:27.820
+we already went through again.
+
+05:28.160 --> 05:34.540
+So next, next you might be prompted to enter your key store password
+
+05:35.870 --> 05:43.970
+which often is your or typically is your Mac OS password and once you did this, you can click upload and
+
+05:43.970 --> 05:46.720
+now it will upload your app to the App Store.
+
+05:46.730 --> 05:53.330
+Now all these steps and more documentation can of course be found in the links at the end of this module
+
+05:53.360 --> 05:59.210
+to the official docs where you can dive deeper, troubleshoot things which might not work for you or read
+
+05:59.210 --> 06:01.840
+more about this whole process.
+
+06:01.880 --> 06:08.180
+Now this uploading process can take quite a while, so don't worry if it takes a bit longer,
+
+06:08.210 --> 06:09.940
+now the upload finished for me
+
+06:10.160 --> 06:19.130
+and with that, we can close that archive explorer. Go back to iTunes Connect and if we now refresh this
+
+06:19.130 --> 06:24.170
+page or simply go back and forth and after a while, you will see build,
+
+06:24.230 --> 06:29.990
+it can take a couple of minutes but it will be there and you then can fill out the rest, prepare everything
+
+06:30.290 --> 06:32.960
+and submit your app for review.

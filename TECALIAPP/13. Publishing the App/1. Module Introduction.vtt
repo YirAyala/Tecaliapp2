@@ -1,0 +1,34 @@
+WEBVTT
+
+00:02.500 --> 00:08.410
+You did it, you learned a lot about react native, you had a very thorough introduction to it and we built
+
+00:08.410 --> 00:15.430
+a really nice application throughout the course. Time to not only do this in our development environment but
+
+00:15.430 --> 00:20.430
+to also learn how to finish our app up and how to publish it. In this module,
+
+00:20.430 --> 00:26.350
+I will walk you through all the steps you need to execute to get your app into ios App Store, the
+
+00:26.350 --> 00:29.600
+Apple App Store or the Android play store
+
+00:29.960 --> 00:34.810
+and I will not only cover that, we'll also have a look at other things. To be precise,
+
+00:34.810 --> 00:41.010
+we'll have a look at how we can add app icons and a splash screen to our application,
+
+00:41.140 --> 00:46.150
+you will then also learn how to configure your app for production and build it for production,
+
+00:46.150 --> 00:47.500
+so for deployment
+
+00:47.500 --> 00:52.410
+and then as I mentioned, I show you how to deploy it for iOS and for Android.
+
+00:52.540 --> 00:53.860
+Let's dive into that.

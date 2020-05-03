@@ -1,0 +1,5 @@
+XSym
+0112
+3c99f6bfccff8279c293a11fbd64d817
+../../../../../node_modules/react-native/Libraries/Text/TextInput/Singleline/RCTSinglelineTextInputViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

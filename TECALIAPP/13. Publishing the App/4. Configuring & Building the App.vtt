@@ -1,0 +1,313 @@
+WEBVTT
+
+00:02.550 --> 00:08.820
+So now that we worked on the icons, worked on the splash screen, let's configure our project to be ready
+
+00:08.850 --> 00:10.330
+to be published.
+
+00:10.470 --> 00:14.230
+You can find a guide in the official docs under guides
+
+00:14.310 --> 00:17.060
+if you click on running on device
+
+00:17.070 --> 00:22.560
+and yes I'm not so happy with the naming of this point, it's not obvious that this also shows you how
+
+00:22.560 --> 00:25.050
+to prepare your apps for publishing.
+
+00:25.200 --> 00:29.970
+There you can switch between ios and Android and the first part is always about running it in development mode
+
+00:30.270 --> 00:38.500
+but then at the bottom, we're talking about building the app for production and for an iOS app, here we
+
+00:38.530 --> 00:44.760
+first of all need to remove an exception which was made for a local host, that was made so that our app
+
+00:44.760 --> 00:48.730
+can communicate with our development server but we don't need that anymore.
+
+00:48.990 --> 00:54.640
+So let's go to Xcode and there, go to your info plist, 
+
+00:54.780 --> 01:03.540
+there you can go to app transport security settings and under exception domains, you have localhost, simply
+
+01:04.410 --> 01:08.480
+delete this row by clicking on it and pressing backspace,
+
+01:08.490 --> 01:10.140
+so that's the first step.
+
+01:10.140 --> 01:13.250
+The next step is that you need to configure a release scheme,
+
+01:13.320 --> 01:19.200
+so basically the build process to build it for production which optimizes it and thereafter, once you
+
+01:19.200 --> 01:20.840
+have set this up, you can build it.
+
+01:20.850 --> 01:27.000
+Now before we do that, some words about configuring your app, in that info plist as you probably already
+
+01:27.000 --> 01:27.660
+noticed,
+
+01:27.690 --> 01:33.480
+you can do a lot of configuration, you can change the name of your app as it will be displayed, for example
+
+01:33.480 --> 01:38.550
+below the icon, there is the bundle identifier which you can fine tune to your needs,
+
+01:38.550 --> 01:40.680
+this is like a unique identifier for your app
+
+01:40.680 --> 01:45.460
+and here react native gave you one by default but of course you can use your own one
+
+01:45.570 --> 01:55.080
+and the common rule is to basically use an inverted url so you could use com. and then your
+
+01:55.110 --> 02:00.060
+url if you have one or a fictionary url which could represent your company,
+
+02:00.120 --> 02:07.090
+so whatever you want, here I'll name this rncourse.awesomeplaces, whatever you want,
+
+02:07.110 --> 02:11.360
+however here, this one is now taken. Thereafter,
+
+02:11.370 --> 02:19.040
+you can see if you want to restrict the device orientations so you supported interface orientations,
+
+02:19.040 --> 02:22.160
+right now everything is supported here and so on,
+
+02:22.160 --> 02:25.610
+so here you can configure your app for iOS.
+
+02:25.700 --> 02:37.230
+Once here done with all that, you can go to the menu and then product scheme, added scheme and there
+
+02:37.230 --> 02:42.390
+you can now switch from debug in the build configuration to release.
+
+02:42.390 --> 02:47.570
+Now hit close and now go to product build,
+
+02:47.640 --> 02:52.830
+this will now build your project for production, so it will compile everything, bundle everything together
+
+02:53.010 --> 02:57.650
+and give you a file that you could publish to the Apple store, to the App Store.
+
+02:57.830 --> 03:01.960
+Now publishing that also requires some steps through which I'll walk you
+
+03:02.070 --> 03:05.140
+but this is the first important step here.
+
+03:05.330 --> 03:09.710
+So now the build succeeded and you may ignore any warnings as long as it does,
+
+03:09.800 --> 03:12.470
+now we can publish it, before we do that,
+
+03:12.530 --> 03:15.770
+let's also prepare the Android app though.
+
+03:17.010 --> 03:23.050
+For that we can again have a look at the official docs on the react native documentation, switch to Android,
+
+03:23.460 --> 03:27.400
+we have the development documentation first and then for building for production,
+
+03:27.420 --> 03:28.640
+there is a separate guide,
+
+03:28.650 --> 03:29.770
+no one knows why,
+
+03:29.940 --> 03:32.640
+so we can just visit that guide. Now in
+
+03:32.670 --> 03:34.950
+here we learn how to create a signed APK,
+
+03:34.980 --> 03:38.090
+we already have an APK running on our simulator,
+
+03:38.130 --> 03:39.410
+that was an unsigned one,
+
+03:39.420 --> 03:44.470
+now just as for ios where we also needed to do this for development but where Xcode took care of it, 
+
+03:44.550 --> 03:49.980
+we also need to sign our apps for Android before shipping them. We need to do that manual here
+
+03:49.980 --> 03:51.540
+but it's not that difficult.
+
+03:51.540 --> 03:56.730
+First of all we need to create a sign in key and for that you can copy that command and execute it in
+
+03:56.730 --> 03:58.680
+your terminal or a command prompt,
+
+03:58.680 --> 04:04.320
+this also works on Windows but as it says here for windows, you need to navigate into this folder first
+
+04:04.620 --> 04:06.000
+in the command prompt.
+
+04:06.390 --> 04:09.720
+So I will do this on Mac OS here,
+
+04:09.720 --> 04:13.340
+I'll go back into my project and there enter this command I
+
+04:13.350 --> 04:17.070
+just copied and you can replace the name here,
+
+04:17.070 --> 04:19.290
+my release key, keystore in the alias,
+
+04:19.290 --> 04:22.000
+I'll leave it at the defaults and just hit enter.
+
+04:22.290 --> 04:24.940
+And now you're prompted to enter keystore password,
+
+04:25.050 --> 04:26.700
+so I'm going to pick one here,
+
+04:26.730 --> 04:27.700
+you need to confirm it
+
+04:32.630 --> 04:33.080
+then
+
+04:33.080 --> 04:41.210
+a couple of information pieces about you and once you are done, you will have this new file in your project
+
+04:41.210 --> 04:42.350
+directory,
+
+04:43.860 --> 04:48.330
+this is my release keystore file which is password protected.
+
+04:48.330 --> 04:55.390
+Now as a next step, we should move it into the Android/app folder of our project,
+
+04:55.410 --> 04:56.420
+so let's do that,
+
+04:56.530 --> 05:00.400
+let's move it all the way into Android app, yes
+
+05:00.400 --> 05:08.050
+move and thereafter we need to edit this file gradle.properties.
+
+05:08.140 --> 05:14.770
+Now notice this is not in our project folder but in your user folder on your operating system, then I'm
+
+05:14.770 --> 05:17.980
+going to copy all that content here
+
+05:19.220 --> 05:22.310
+and I navigate it into the folder.gradle in my user folder.
+
+05:22.340 --> 05:26.540
+If you don't have that file yet, simply create it, normal text editor suffices,
+
+05:26.570 --> 05:31.290
+just make sure it's gradle.properties, no .txt at the end or anything like that
+
+05:31.610 --> 05:33.830
+and then you can just paste in the content.
+
+05:34.010 --> 05:39.770
+If you change the key name or the alias, make sure to adjust it here too and then enter your store password
+
+05:39.770 --> 05:40.320
+here
+
+05:41.750 --> 05:48.750
+and once you did this, save that file and now we need to edit our configuration in the Android app build
+
+05:48.760 --> 05:49.430
+gradle file,
+
+05:49.430 --> 05:55.460
+so again back in the project folder. You don't need to override default config, simply add the sign
+
+05:55.490 --> 05:57.220
+in configs part here,
+
+05:57.370 --> 06:06.280
+so I'm going to copy that and then go into app and there build.gradle and below the default config
+
+06:06.310 --> 06:15.440
+object, add the sign in configs object you just copied and also add this line here to the release object
+
+06:15.500 --> 06:20.780
+under build types, so build types, here I'll add this. Thereafter,
+
+06:20.810 --> 06:26.820
+you can generate the release APK by running this command in your project folder,
+
+06:26.820 --> 06:31.330
+so first cd Android into that folder and then that command I just copied
+
+06:31.470 --> 06:35.700
+and now this will build and sign your project for deployment.
+
+06:36.500 --> 06:38.680
+This should now complete successfully,
+
+06:38.720 --> 06:44.780
+now as a side note because I also mentioned it for iOS, if you want to change some config for Android,
+
+06:44.810 --> 06:51.130
+you do this in the source folder under Main and then in the Android manifest xml file. There
+
+06:51.230 --> 06:57.680
+you can change the app icon though it should be ic launcher to use to the launcher icon we created.
+
+06:57.950 --> 07:01.270
+You can also set up the app name, though here
+
+07:01.280 --> 07:04.360
+this automatically will refer to another file where
+
+07:04.370 --> 07:09.500
+this name is managed, under resources values in this strings xml file,
+
+07:09.500 --> 07:11.650
+here you can change the app name,
+
+07:11.660 --> 07:17.060
+it's managed by react native though so we can always also change this in the app.json file
+
+07:17.060 --> 07:22.430
+and if you rerun npm run ios or android, here it then also updates so that is something you can
+
+07:22.430 --> 07:23.100
+do.
+
+07:23.300 --> 07:28.700
+And if you ever needed to add anything else like permissions and so on, have a look at the Android manifest.
+
+07:29.300 --> 07:31.720
+There you also have your package name
+
+07:31.720 --> 07:40.860
+so like the bundle identifier for iOS and this will become important later too. With that
+
+07:40.870 --> 07:48.050
+however we build both apps, we built Android and iOS, let's next have a look at how we deploy them.

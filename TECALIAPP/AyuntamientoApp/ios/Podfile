@@ -1,0 +1,62 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'TecaliApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  # Pods for TecaliApp
+
+   	pod 'Firebase'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Core'
+    pod 'react-native-async-storage', :path => '../node_modules/@react-native-community/async-storage'
+    pod 'React', path: '../node_modules/react-native', :subspecs => [
+    'Core',
+    'CxxBridge', # Include this for RN >= 0.47
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', # Needed for debugging
+    'RCTAnimation', # Needed for FlatList and animations running on native UI thread
+    # Add any other subspecs you want to use in your project
+    'RCTLinkingIOS',
+    'RCTImage',
+    #react-native-maps
+    #'RCTActionSheet',
+    'RCTGeolocation',
+    #'RCTSettings',
+    #'RCTVibration',
+    ]
+    
+    pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
+    
+    # Third party deps podspec link
+    pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+    pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+    pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+    pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+    pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+    
+    pod 'RNImageCropPicker', :path =>  '../node_modules/react-native-image-crop-picker'
+    pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+    pod 'react-native-contacts', :path => '../node_modules/react-native-contacts'
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    
+    # The following is needed to ensure the "archive" step works in XCode.
+    # It removes React & Yoga from the Pods project, as it is already included in the main project.
+    # Without this, you'd see errors when you archive like:
+    # "Multiple commands produce ... libReact.a"
+    # "Multiple commands produce ... libyoga.a"
+    
+    targets_to_ignore = %w(React yoga)
+    
+    if targets_to_ignore.include? target.name
+      target.remove_from_project
+    end
+    
+  end
+  end

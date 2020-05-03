@@ -1,0 +1,292 @@
+WEBVTT
+
+00:02.250 --> 00:08.290
+Now that we added icons, let's add splash screens and here I first of all want to draw your attention
+
+00:08.290 --> 00:14.140
+towards a package, react native splash screen which might make this a bit easier, though I will use
+
+00:14.140 --> 00:20.640
+another approach which is also pretty easy but you can use this package here to add splash screens crossplatform.
+
+00:20.770 --> 00:25.660
+There are also some interesting article you can read on how to add splash screens but you can also follow
+
+00:25.660 --> 00:31.000
+the approach I show here, it always also depends on which kind of splash screen we want to add, I'll
+
+00:31.000 --> 00:33.060
+add a relatively simple one.
+
+00:33.220 --> 00:40.870
+Now to add such a splash screen as I want to add it for android, I will simply go to the source main
+
+00:41.200 --> 00:50.050
+Java folder and in there to your main activity file and there we have this splash screen activity, the
+
+00:50.050 --> 00:53.200
+splash activity we extend. In there,
+
+00:53.190 --> 00:58.030
+I now will add a new function and now we're actually going to write a bit of Java code but no worries
+
+00:58.120 --> 00:59.980
+it won't be complicated.
+
+00:59.980 --> 01:01.510
+First of all let's add override
+
+01:01.540 --> 01:05.970
+because we're going to override a function that already exists in splash activity,
+
+01:06.040 --> 01:09.640
+so we're adding our own implementation. It's a public function
+
+01:09.760 --> 01:13.900
+and in Java we also have to define what this function returns,
+
+01:13.920 --> 01:21.640
+this will be a linear layout and then we give it a name of create splash layout, like this.
+
+01:21.640 --> 01:26.120
+Now of course you will find the finished code attached to this lecture module as always.
+
+01:26.380 --> 01:29.340
+Now in there, we create a linear layout view
+
+01:29.350 --> 01:32.030
+maybe, so this is how you create the variable in Java, the
+
+01:32.110 --> 01:38.280
+type and then the name and we create a new linear layout for this.
+
+01:38.380 --> 01:40.930
+We have to pass this to that,
+
+01:41.410 --> 01:52.870
+we also have to import that and the path for this is import Android widget linear layout, we can already
+
+01:52.870 --> 02:00.730
+import some other things we'll need, import Android graphics color because I want to use some color as
+
+02:00.730 --> 02:07.840
+a background basically for the splash screen, import Android widget text view because I want to output some
+
+02:07.840 --> 02:10.530
+text, import Android
+
+02:10.540 --> 02:20.120
+view gravity is something else we'll need and import android util, for utility of course typed
+
+02:20.230 --> 02:21.050
+value,
+
+02:21.280 --> 02:25.290
+you will see how we use these. So now with these imports added,
+
+02:25.480 --> 02:26.960
+let's add the text view
+
+02:26.990 --> 02:34.330
+here, I'll name it text view and it will be a new text view where we also pass this or reference to the
+
+02:34.330 --> 02:35.720
+classes argument.
+
+02:36.070 --> 02:44.700
+Then I can take my view in call set background color here and set the color which I get from this
+
+02:44.700 --> 02:52.040
+import color package where I can call parse color function to pass my own color I want to use
+
+02:52.150 --> 02:54.120
+and here I can just pass the hex code,
+
+02:54.210 --> 02:57.250
+I'll use #521751,
+
+02:57.300 --> 03:01.720
+you can of course play around with that. Then I'll use this gravity thing
+
+03:01.720 --> 03:08.540
+with set gravity, this will define how elements are basically laid out and I'll use the gravity
+
+03:08.540 --> 03:11.830
+package here and a center constant,
+
+03:12.290 --> 03:17.030
+so this will basically ensure that everything is centered vertically and horizontally.
+
+03:17.060 --> 03:25.230
+Then I add my text view and there I will set a text color where I also use the color package to parse
+
+03:25.560 --> 03:30.270
+a hex code color and I will use #fa923f as a color,
+
+03:30.280 --> 03:32.450
+these colors that would fit
+
+03:32.460 --> 03:33.880
+the icon basically.
+
+03:34.200 --> 03:35.630
+And then here I'll use text
+
+03:35.640 --> 03:42.430
+view, set text and I'll add awesome places here,
+
+03:42.460 --> 03:44.780
+so that is the text we actually want to display.
+
+03:47.370 --> 03:49.980
+Then we're nearing the end, I'll also set a gravity 
+
+03:49.980 --> 04:00.510
+here and access gravity center here too to center the text and I'll set a size with set text size and
+
+04:00.630 --> 04:08.940
+there I will get it from this type value package and get complex unit dip to use density independent
+
+04:08.940 --> 04:13.090
+pixels and then set a size of 40 pixels, again
+
+04:13.230 --> 04:19.260
+these will be adjusted to the screen size automatically. And then I just add this view, so the text
+
+04:19.260 --> 04:26.130
+view to my background view so to say and return the view here and this is how we programmatically create
+
+04:26.220 --> 04:31.530
+a simple splash screen. Again for more complex examples or anything else you want to do,
+
+04:31.530 --> 04:33.310
+check out the resources I mentioned,
+
+04:33.390 --> 04:36.350
+you'll of course also find links at the end of the module.
+
+04:36.480 --> 04:38.850
+That's android, now for iOS,
+
+04:38.850 --> 04:44.450
+we again use Xcode and there you have this LaunchScreen.zip file.
+
+04:44.460 --> 04:51.250
+If you open that, you can basically edit your screen here,
+
+04:51.280 --> 04:55.240
+now it looks like a square but it will actually be adjusted.
+
+04:55.240 --> 04:58.520
+Now here we can also add a text, so we can do all of that
+
+04:58.530 --> 05:02.040
+here in this editor and center
+
+05:02.040 --> 05:04.980
+this, make sure that really is centered here.
+
+05:04.990 --> 05:12.900
+Now you can then click on it and hold control and drag this line into this view which is blue and then choose
+
+05:12.900 --> 05:18.780
+center horizontally and do it again to center vertically too so that this really is centered.
+
+05:18.780 --> 05:25.470
+This is a special way of layouting in Xcode or for iOS apps which will make sure that this really
+
+05:26.190 --> 05:28.080
+looks good on all device sizes,
+
+05:28.200 --> 05:34.020
+I'll get rid of powered by react native and now I just want to use a background color here, for this,
+
+05:34.020 --> 05:39.980
+you can click on this icon here in the top right and then choose a background color here
+
+05:41.080 --> 05:50.680
+and in that color picker, I'll go to this here and pick RGB color so that I can enter a hex code and
+
+05:50.710 --> 05:56.370
+now I will use this as a background color and as a foreground color for awesome places.
+
+05:56.430 --> 06:02.670
+Now on the right here too with this icon selected at the top, you can choose a color up here and I
+
+06:02.670 --> 06:06.540
+will choose the same I used in android here
+
+06:07.790 --> 06:14.260
+to get this splash screen and of course you can edit this to change it in whichever way you want.
+
+06:14.510 --> 06:19.550
+With that however, we edited this for both Android and iOS,
+
+06:19.580 --> 06:25.610
+now I will uninstall both apps one more time to then of course reinstall them to see these
+
+06:25.610 --> 06:26.800
+changes,
+
+06:26.840 --> 06:35.610
+so let's do that really quick, uninstall both apps and then simply re-execute npm run Android and thereafter
+
+06:35.680 --> 06:42.430
+npm run ios and this will make sure that both are rebuilt and shipped to the respective operating system
+
+06:42.600 --> 06:46.610
+and that we then hopefully see our splash screens there
+
+06:46.650 --> 06:49.440
+once they run.
+
+06:49.490 --> 06:52.120
+So here is the android one, looks good
+
+06:52.610 --> 06:55.390
+and now we should see the iOS one in a second too
+
+06:55.390 --> 07:03.070
+once this is finished and installs and then starts on our ios device, here it is coming and that's
+
+07:03.070 --> 07:04.470
+the splash screen.
+
+07:04.490 --> 07:08.370
+There is one extra part I don't want to have though
+
+07:09.120 --> 07:16.240
+and if you got that behavior, you can go back into Xcode and there on the top, you can click on view
+
+07:16.240 --> 07:24.120
+here and see that there is actually a second awesome places view somewhere, here
+
+07:24.220 --> 07:29.420
+the black one beneath that so I somehow copy it, that might not be the case for you.
+
+07:31.210 --> 07:34.940
+I will quickly delete that and then bring this back into position
+
+07:35.020 --> 07:41.700
+and here on the right, awesome places. Make sure that here if you click this icon here, the size inspector
+
+07:41.810 --> 07:47.280
+that you only got two constraints for x and y centering to the super view, delete all others
+
+07:47.290 --> 07:48.250
+you might have.
+
+07:48.640 --> 07:54.820
+And with that, we can delete this app from iOS one more time,
+
+07:54.820 --> 08:01.060
+so from our iPhone simulator and rerun npm run ios to now build it again and hopefully see
+
+08:01.060 --> 08:03.230
+the right splash screen the next time.
+
+08:03.400 --> 08:09.430
+And then we would be finished with this basic splash screen setup and of course, you can as always dive
+
+08:09.430 --> 08:14.170
+deeper, do more here but with that, I think we have a really beautiful splash screens, awesome.

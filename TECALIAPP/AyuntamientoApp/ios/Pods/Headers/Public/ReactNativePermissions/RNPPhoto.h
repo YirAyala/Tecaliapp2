@@ -1,0 +1,5 @@
+XSym
+0079
+364cae98b5424983806e25085c5cdf60
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPPhoto.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

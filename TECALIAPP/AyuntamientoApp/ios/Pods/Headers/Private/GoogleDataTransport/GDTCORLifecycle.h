@@ -1,0 +1,5 @@
+XSym
+0087
+2698f3f81541273b583fa4b2b545491c
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORLifecycle.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

@@ -1,0 +1,5 @@
+XSym
+0088
+66c59370c45ef580d67926a1e58a03b7
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORDataFuture.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

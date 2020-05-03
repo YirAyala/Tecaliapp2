@@ -1,0 +1,5 @@
+XSym
+0083
+01831dde2a57fb3974f33bca1262a927
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPBluetooth.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

@@ -1,0 +1,5 @@
+XSym
+0069
+949c2b7e6aa3084a549b1597a73d4ef7
+../../../QBImagePickerController/QBImagePicker/QBVideoIndicatorView.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

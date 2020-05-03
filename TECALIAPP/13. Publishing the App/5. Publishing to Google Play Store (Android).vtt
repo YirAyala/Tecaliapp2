@@ -1,0 +1,106 @@
+WEBVTT
+
+00:02.620 --> 00:07.780
+Let's deploy our Android app and for that, you can always search for Android publish app to find an
+
+00:07.780 --> 00:11.400
+article on the official developer docs of Android.
+
+00:11.450 --> 00:17.590
+There, you find detailed instructions on how to release your app, how you prepare your app for release,
+
+00:17.590 --> 00:19.100
+we already did this though
+
+00:19.360 --> 00:22.380
+and then how you publish it.
+
+00:22.390 --> 00:25.870
+Now here I want to publish it through Google Play
+
+00:25.870 --> 00:30.780
+and for that, we can visit Google Play. On the top right,
+
+00:30.780 --> 00:33.110
+you can open the play console,
+
+00:33.210 --> 00:37.800
+now if you click there the first time, you need to sign up as a Google Developer, you need to accept their
+
+00:37.800 --> 00:41.390
+agreements and you need to pay a one time registration fee,
+
+00:41.400 --> 00:44.620
+it's not very high though, it's only $25 and only one time.
+
+00:44.700 --> 00:51.030
+This is essentially there to avoid having a lot of bots spam everything here here a lot of people who
+
+00:51.030 --> 00:54.060
+don't really want to create a serious app.
+
+00:54.390 --> 00:56.960
+So once you did this, you can log in
+
+00:57.140 --> 01:01.360
+and once you did sign in, you can create a new application.
+
+01:01.440 --> 01:07.540
+Now here choose the default language and give it an awesome name like awesome places, create
+
+01:07.650 --> 01:12.060
+and here you can now fill out a lot of metadata about this application.
+
+01:12.850 --> 01:19.780
+Add images for the preview in the Google Play Store and so on, contact details about yourself
+
+01:19.890 --> 01:22.940
+but for us interesting is app releases.
+
+01:23.130 --> 01:25.580
+There you now add your APKs,
+
+01:25.760 --> 01:29.650
+so let's click on manage production and create a release,
+
+01:29.670 --> 01:33.410
+you can now also use Google Play app sign as additional security layer
+
+01:36.590 --> 01:43.670
+and thereafter you can upload your APK here, the APK which was generated. Let's browse files and you'll
+
+01:43.670 --> 01:46.320
+find that APK in the Android folder app
+
+01:48.800 --> 01:59.630
+and there build and outputs APK, app release APK. Simply click open and now it will be uploaded
+
+01:59.780 --> 02:03.980
+to the play store console and is processed and checked
+
+02:04.190 --> 02:09.580
+and you see, now here it was accepted and that is the first important step.
+
+02:10.070 --> 02:17.020
+Now what you need to do is with that added here, you have to go back to store listing and all the other
+
+02:17.020 --> 02:20.850
+fields which are marked with an exclamation mark and complete them,
+
+02:21.050 --> 02:24.020
+You always get hints about what's missing and what you need to do,
+
+02:24.020 --> 02:26.080
+these are all steps you can do on your own,
+
+02:26.180 --> 02:28.330
+this is the last thing that's in your way.
+
+02:28.340 --> 02:36.020
+Make sure to prepare an appealing product page for this app, so upload nice images, nice text and so
+
+02:36.020 --> 02:36.650
+on
+
+02:36.680 --> 02:40.710
+and once you did this, you're good to go and publish your Android app.

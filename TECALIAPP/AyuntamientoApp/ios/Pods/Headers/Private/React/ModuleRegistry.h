@@ -1,0 +1,5 @@
+XSym
+0078
+e67352d36e2f3751d7a9fbac7e978fe3
+../../../../../node_modules/react-native/ReactCommon/cxxreact/ModuleRegistry.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

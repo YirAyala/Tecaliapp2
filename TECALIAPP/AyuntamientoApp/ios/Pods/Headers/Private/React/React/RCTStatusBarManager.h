@@ -1,0 +1,5 @@
+XSym
+0079
+28e555390290ea0ad38db75c3e34e28f
+../../../../../../node_modules/react-native/React/Modules/RCTStatusBarManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

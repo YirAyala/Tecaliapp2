@@ -1,0 +1,5 @@
+XSym
+0086
+991344773481a854bc51e6662d8b13d6
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORUploader.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

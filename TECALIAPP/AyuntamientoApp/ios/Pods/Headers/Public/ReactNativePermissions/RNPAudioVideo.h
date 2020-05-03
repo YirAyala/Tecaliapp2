@@ -1,0 +1,5 @@
+XSym
+0084
+22a7feb7b43a33d3b14ebc9b2d6d1632
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPAudioVideo.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

@@ -1,0 +1,5 @@
+XSym
+0082
+21270c2d2b36165dfcafd4b09c62899c
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPLocation.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

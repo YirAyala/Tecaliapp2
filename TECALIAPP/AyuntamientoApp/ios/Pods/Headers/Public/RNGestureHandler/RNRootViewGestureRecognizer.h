@@ -1,0 +1,5 @@
+XSym
+0090
+720db82438a874ffae9ea64500f8670f
+../../../../../node_modules/react-native-gesture-handler/ios/RNRootViewGestureRecognizer.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

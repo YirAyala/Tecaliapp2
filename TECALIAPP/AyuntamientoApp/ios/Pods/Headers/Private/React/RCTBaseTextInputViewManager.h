@@ -1,0 +1,5 @@
+XSym
+0095
+5633da215bbdb486c300d345df5a7b77
+../../../../../node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputViewManager.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#FF8800",
+        "titleBar.activeForeground": "#ffffff"
+    },
+    "editor.fontSize": 17,
+    "editor.fontWeight": "400",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.configuration.updateBuildConfiguration": "disabled"
+}

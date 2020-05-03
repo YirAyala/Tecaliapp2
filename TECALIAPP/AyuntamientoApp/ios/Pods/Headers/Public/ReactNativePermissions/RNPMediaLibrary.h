@@ -1,0 +1,5 @@
+XSym
+0086
+4f1575a2750e74c867c40aecc6806dde
+../../../../../node_modules/react-native-permissions/ios/Permissions/RNPMediaLibrary.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         

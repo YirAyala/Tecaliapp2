@@ -1,0 +1,5 @@
+XSym
+0087
+0f147be317eb4f988644ea617d6cee82
+../../../GoogleDataTransport/GoogleDataTransport/GDTCORLibrary/Public/GDTCORRegistrar.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
